@@ -1,0 +1,258 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+	
+}
+body{
+	 font-family: 'Alkatra', cursive;
+     font-family: 'Open Sans', sans-serif;
+	 font-weight:500;
+}
+
+
+
+
+.header{
+	padding:15px 0;
+	
+	
+	
+	
+}
+
+.header a{
+	text-decoration:none;
+	color:black;
+	
+}
+
+.btn a{
+	font-size:14px;
+	color:#fff;
+	background-color:#ce1212;
+	padding:8px 20px;
+	border-radius:50px;
+	margin-left:30px;
+	
+}
+.list li a.active{
+	color:black;
+}
+.text-end{
+	text-align:end;
+}
+
+.container{
+	width:90%;
+	margin:0 auto;
+}
+
+.row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.list{
+	display:flex;
+	justify-content:space-evenly;
+	
+}
+
+.list li {
+	list-style-type:none;
+	
+	
+	
+}
+
+
+.list li a{
+	color:#aba3a3;
+}
+
+
+.align-center{
+	align-items:center;
+}
+
+
+.col-1{
+	width:8.33%;
+    padding:0 15px;
+
+}
+
+
+.col-2{
+	width:16.66%;
+    padding:0 15px;
+
+}
+
+.col-3{
+	width:25%;
+    padding:0 15px;
+
+}
+
+.col-4{
+	width:33.33%;
+    padding:0 15px;
+
+}
+
+.col-5{
+	width:41.66%;
+    padding:0 15px;
+
+}
+
+
+.col-6{
+	width:50%;
+    padding:0 15px;
+
+}
+
+.col-7{
+	width:58.33%;
+    padding:0 15px;
+
+}
+
+
+.col-8{
+	width:66.66%;
+    padding:0 15px;
+
+}
+
+
+.col-9{
+	width:75%;
+    padding:0 15px;
+
+}
+
+
+.col-10{
+	width:83%;
+    padding:0 15px;
+
+}
+
+.col-11{
+	width:91.66%;
+    padding:0 15px;
+
+}
+
+
+.col-12{
+	width:100%;
+    padding:0 15px;
+
+}
+
+
+
+.list li a{
+	
+	position:relative;
+}
+
+.list li a::after{
+	content:"";
+	position:absolute;
+	background-color:red;
+	height:3px;
+	width:0;
+	left:0;
+	bottom:-10px;
+	transition:0.3s;
+	
+	
+}
+.list li a:hover{
+	width:100%;
+}
+
+
+
+
+
+header h1 a{
+	position:relative;
+	
+}
+
+
+header h1 a::after{
+	
+	content:"";
+	position:absolute;
+	bottom:10px;
+	height:5px;
+	width:5px;
+	border-radius:50px;
+    background-color:red;
+	
+}
+
+.list li a{
+	padding:0 10px;
+	
+}
+
+.list li a:hover{
+	color:#000;
+	
+	
+}
+
+
+
+.list li a:after{
+	
+	content:"";
+	position:relative;
+	bottom:-15px;
+	height:3px;
+	width:0%;
+    background-color:red;
+	transition:0.3s;
+	left:0;
+	
+	
+}
+
+.list li a:hover:after{
+	
+	
+
+	position:absolute;
+	width:100%;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/* header list a{ */
+	/* position:relative; */
+	
+/* } */
+/* header list a::after{ */
+	/* content:"hi"; */
+	/* position:absolute; */
+	
+/* } */
+
